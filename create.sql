@@ -5,7 +5,7 @@ DROP TABLE IF EXISTS cars;
 CREATE TABLE cars (
     car_id INT AUTO_INCREMENT PRIMARY KEY,
     vin VARCHAR(20) NOT NULL,
-    manufactured VARCHAR(50) NOT NULL,
+    manufacturer VARCHAR(50) NOT NULL,
     model VARCHAR(50) NOT NULL,
     car_year INT(4) NOT NULL,
     color VARCHAR(20)
